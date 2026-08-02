@@ -1,0 +1,13 @@
+notebook
+ipywidgets
+torch
+torchvision
+ultralytics
+timm
+opencv-python
+kagglehub
+pandas
+seaborn
+matplotlib
+gtts
+

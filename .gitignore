@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Large model weights (Ultralytics and PyTorch models)
+# Note: You can upload your custom 'best.pt' if it is under 100MB, 
+# but generic pre-trained weights are ignored to save space.
+yolov8n.pt
+yolov8s.pt
+yolov9c.pt
+
+# Temporary audio announcement files
+temp_announce_*.mp3
+*.mp3
+
+# Video inputs/outputs (large media files)
+*.mp4
+*.avi
+*.jpeg
+*.jpg
+*.png
+!code_screenshots/ # Don't ignore the code screenshots folder
+
+# Presentation files (optional, remove if you want to push slides)
+*.pptx
+~$*.pptx
